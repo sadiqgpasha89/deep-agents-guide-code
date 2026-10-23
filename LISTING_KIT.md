@@ -1,5 +1,7 @@
 # Listing kit: Deep Agents: The Complete Guide to LangChain's Deep Agents (Unofficial)
 
+**Initially I planned to Launch this book and repo for a cost. But then decided to give it for free.**
+
 Everything you need to list the book on Gumroad or Leanpub. Copy the blocks below into the store forms.
 
 ## Before you press publish
