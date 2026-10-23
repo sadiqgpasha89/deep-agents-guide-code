@@ -1,0 +1,11 @@
+content-builder-agent/
+├── AGENTS.md              # memory: brand voice, writing standards, research rules
+├── subagents.yaml         # subagent definitions (researcher)
+├── skills/
+│   ├── blog-post/SKILL.md
+│   └── social-media/SKILL.md
+├── content_writer.py      # tools, loader, agent factory, entry point
+├── blogs/<slug>/          # output: post.md, hero.png
+├── linkedin/<slug>/       # output: post.md, image.png
+├── tweets/<slug>/         # output: thread.md, image.png
+└── research/<slug>.md     # output: research notes

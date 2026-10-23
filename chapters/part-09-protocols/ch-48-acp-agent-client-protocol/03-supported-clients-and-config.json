@@ -1,0 +1,1 @@
+{ "agent_servers": { "DeepAgents": { "type": "custom", "command": "/absolute/path/to/run_demo_agent.sh" } } }

@@ -1,0 +1,6 @@
+skills/
+  <skill-name>/            # directory name MUST match frontmatter `name`
+    SKILL.md               # REQUIRED: frontmatter + instructions
+    scripts/               # optional: executable code
+    references/            # optional: on-demand docs
+    assets/                # optional: templates, schemas, images

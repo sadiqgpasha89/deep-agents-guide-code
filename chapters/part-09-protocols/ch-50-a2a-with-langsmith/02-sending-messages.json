@@ -1,0 +1,3 @@
+{ "jsonrpc": "2.0", "id": "1", "method": "SendMessage",
+  "params": { "message": {"role": "ROLE_USER", "parts": [{"text": "hello"}], "messageId": "message-1"},
+              "configuration": {"returnImmediately": true} } }

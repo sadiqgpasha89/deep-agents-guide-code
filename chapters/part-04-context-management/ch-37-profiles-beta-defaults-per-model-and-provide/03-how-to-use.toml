@@ -1,0 +1,10 @@
+# Deep Agents: The Complete Guide to LangChain's Deep Agents (Unofficial)
+# Part IV: Context Management
+# Chapter 37: Profiles (Beta): Defaults per Model and Provider
+# Section: How to use
+# Snippet 3 of this chapter.
+
+[project.entry-points."deepagents.harness_profiles"]
+my_provider = "my_pkg.profiles:register_harness"
+[project.entry-points."deepagents.provider_profiles"]
+my_provider = "my_pkg.profiles:register_provider"

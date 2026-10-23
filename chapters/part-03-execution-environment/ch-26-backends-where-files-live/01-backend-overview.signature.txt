@@ -1,0 +1,13 @@
+# Reference signature, not runnable as written.
+# Deep Agents: The Complete Guide to LangChain's Deep Agents (Unofficial)
+# Part III: Execution Environment
+# Chapter 26: Backends: Where Files Live
+# Section: Backend overview
+# Snippet 1 of this chapter.
+
+StateBackend()
+FilesystemBackend(root_dir: str, virtual_mode: bool = False)
+LocalShellBackend(root_dir, virtual_mode, env, inherit_env)   # timeout=120s, max_output_bytes=100_000
+StoreBackend(namespace: Callable[[Runtime], tuple[str, ...]], store=...)
+ContextHubBackend("owner/name" | "name")
+CompositeBackend(default=<backend>, routes={"/prefix/": <backend>})

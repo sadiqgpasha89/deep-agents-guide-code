@@ -1,0 +1,14 @@
+# Reference signature, not runnable as written.
+# Deep Agents: The Complete Guide to LangChain's Deep Agents (Unofficial)
+# Part VI: Steering
+# Chapter 42: Grading Rubrics (Beta)
+# Section: How to use
+# Snippet 2 of this chapter.
+
+RubricMiddleware(
+    model: str | BaseChatModel,         # required grader
+    system_prompt: str | None = None,   # default grader prompt if omitted (set it to give the grader a role)
+    tools: list | None = None,          # evidence-gathering tools
+    max_iterations: int = 3,            # positive int
+    on_evaluation: Callable[[RubricEvaluation], None] | None = None,
+)

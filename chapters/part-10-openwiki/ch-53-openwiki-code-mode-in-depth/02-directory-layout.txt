@@ -1,0 +1,13 @@
+repo/
+├── .openwikiignore            # your ignore rules
+├── AGENTS.md                  # created if missing; managed OPENWIKI block
+├── CLAUDE.md                  # refreshed only if it already exists; imports @AGENTS.md
+└── openwiki/
+    ├── *.md                   # generated pages (quickstart, architecture, operations, ...)
+    ├── index.md, log.md       # reserved OKF scaffolding, not concepts
+    ├── INSTRUCTIONS.md        # your brief; preserved across runs
+    ├── .claims/               # structured Claim sidecars with evidence
+    ├── .page-manifest.json    # per-page progress and source checkpoints
+    ├── .last-update.json      # metadata for the last successful check
+    ├── .run.json              # transient page queue (deleted on success)
+    └── .langsmith.json        # LangSmith workspaces and projects (never keys)

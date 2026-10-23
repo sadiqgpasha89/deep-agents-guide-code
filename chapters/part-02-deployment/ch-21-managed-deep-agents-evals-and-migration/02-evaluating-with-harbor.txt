@@ -1,0 +1,8 @@
+evals/
+├── harbor-job.json
+└── <task>/
+    ├── Task.md           # human-reviewed spec
+    ├── instruction.md    # what the agent is asked to do
+    ├── task.toml         # Harbor config
+    ├── environment/Dockerfile
+    └── tests/test.sh     # verifier, runs after the agent finishes

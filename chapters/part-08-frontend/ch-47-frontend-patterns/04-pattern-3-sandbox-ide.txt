@@ -1,0 +1,2 @@
+GET /sandbox/{thread_id}/tree?filePath=/app     -> entries (name, type, path, size) + sandbox id   (filter out node_modules)
+GET /sandbox/{thread_id}/file?filePath=...      -> file contents

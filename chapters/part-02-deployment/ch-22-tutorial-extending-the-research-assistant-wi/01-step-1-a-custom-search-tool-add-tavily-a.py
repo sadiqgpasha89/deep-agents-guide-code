@@ -1,0 +1,20 @@
+# Deep Agents: The Complete Guide to LangChain's Deep Agents (Unofficial)
+# Part II: Deployment
+# Chapter 22: Tutorial: Extending the Research Assistant with Search, Memory and a Schedule
+# Snippet 1 of this chapter.
+
+import os
+from typing import Literal
+from langchain.tools import tool
+from tavily import TavilyClient
+
+tavily_client = TavilyClient(api_key=os.environ["TAVILY_API_KEY"])
+
+@tool
+def internet_search(
+    query: str,
+    max_results: int = 5,
+    topic: Literal["general", "news", "finance"] = "general",
+) -> dict:
+    """Search the internet for relevant sources."""
+    return tavily_client.search(query, max_results=max_results, topic=topic)

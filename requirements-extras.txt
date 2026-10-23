@@ -1,0 +1,9 @@
+# Optional packages for specific chapters.
+langchain[mcp]            # chapter 49: MCP with LangChain
+deepagents-acp            # chapter 48: ACP
+langchain-quickjs         # chapters 30 and 39: interpreter and dynamic subagents (Python 3.11+)
+langgraph-cli[inmem]      # chapters 47 and 51: `langgraph dev`
+langgraph-sdk
+fastmcp
+# Managed Deep Agents (Part II) uses the `mda` CLI and the managed_deepagents package:
+# install them as described in the Managed Deep Agents quickstart chapter.

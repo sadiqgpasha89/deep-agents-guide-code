@@ -1,0 +1,3 @@
+{ "mcpServers": { "research-assistant": {
+    "type": "http", "url": "<DEPLOYMENT_API_URL>/mcp",
+    "headers": { "x-api-key": "<LANGSMITH_API_KEY>" } } } }

@@ -1,0 +1,18 @@
+# Core packages used by the snippets and build-alongs.
+# Versions are deliberately unpinned: the book describes the documentation as of October 2026.
+# Pin the versions you test against.
+deepagents
+langchain
+langgraph
+langchain-core
+langchain-anthropic
+langchain-openai
+langchain-google-genai
+langchain-text-splitters
+langsmith
+tavily-python
+httpx
+markdownify
+requests
+slack-sdk
+pyyaml
